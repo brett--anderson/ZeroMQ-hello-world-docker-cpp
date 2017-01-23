@@ -1,6 +1,6 @@
 # ZeroMQ Hello World with Docker
 
-This project runs the first example in C from the ØMQ guide located [here](http://zguide.zeromq.org/page:all). The Docker containers take care of all the install instructions needed to get up and running with C and ØMQ.
+This project runs the first example in C++ from the ØMQ guide located [here](http://zguide.zeromq.org/page:all). The Docker containers take care of all the install instructions needed to get up and running with C++ and ØMQ.
 
 ## Getting Started
 

@@ -20,7 +20,7 @@ This will run both the client and server and you should see the output of the cl
 
 ## Using a different version of ZeroMQ or CMake
 
-In each of the Docker files in the `zmq-hello-world-client-node` and `zmq-hello-world-server-node` directories, search for the text `--branch v4.2.1`. This can be changed to any relase tags at https://github.com/zeromq/libzmq
+In each of the Docker files in the `zmq-hello-world-client-node` and `zmq-hello-world-server-node` directories, search for the text `--branch v4.2.1`. This can be changed to any relase tags at https://github.com/zeromq/libzmq. Similarly the version of CMake used can be changed by examing the lines in each of the Docker file that follow the `# Setup CMake` comment
 
 ## Running the server and client independently
 

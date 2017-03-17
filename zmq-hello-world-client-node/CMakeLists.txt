@@ -3,6 +3,9 @@ project(zmq_hello_world)
 
 set(CMAKE_CXX_STANDARD 11)
 
+# debug
+set(CMAKE_BUILD_TYPE Debug)
+
 ## load in pkg-config support
 find_package(PkgConfig)
 ## use pkg-config to get hints for 0mq locations

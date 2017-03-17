@@ -60,8 +60,4 @@ Using the ID copied from the previous step. The containers will now start talkin
 
 ## Executing the docker containers from CLion on OSX
 
-Assuming you are using the latest native version of Docker, run the following command to pipe the output of Docker to a URL that CLion will understand:
-
-`sudo socat TCP-LISTEN:777,reuseaddr,fork,bind=localhost UNIX-CONNECT:/var/run/docker.sock`
-
-Then follow the normal steps documented [here](https://www.jetbrains.com/help/clion/2016.3/docker-integration.html) to setup Docker to run your project. When you need to enter a URL for the Docker API, use `tcp://localhost:777`.
+see documentation on clion + docker + gdb [here](clion-configuration.md)
